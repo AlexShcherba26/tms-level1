@@ -1,0 +1,84 @@
+.download{
+    padding-top: 20px;
+    margin-bottom: 114px;
+
+    @media (max-width:1024px){
+        padding-top: 15px;
+        margin-bottom: 78px;
+    }
+
+    @media (max-width:425px){
+        padding-top: 10px;
+        margin-bottom: 45px;
+    }
+
+    &__title{
+        margin-bottom: 22px;
+        font-weight: 500;
+        font-size: $h3;
+        text-align: center;
+        color: $text-black;
+
+        @media (max-width:1024px){
+            margin-bottom: 22px;
+            font-size: $h4;
+        }
+
+        @media (max-width:425px){
+            margin-bottom: 30px;
+            font-size: $h5;
+        }
+    }
+
+    &__subtitle{
+        margin-bottom: 48px;
+        font-weight: 700;
+        font-size: $h5;
+        text-align: center;
+        text-transform: uppercase;
+        color: $text-black;
+
+        @media (max-width:1024px){
+            margin-bottom: 43px;
+            font-size: $fs14;
+        }
+
+        @media (max-width:425px){
+            margin-bottom: 11px;
+            font-size: $h6;
+        }
+    }
+
+    &__button{
+        display: block;
+        max-width: 370px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 26px 0;
+        font-weight: 900;
+        font-size: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $text-white;
+        background: #FF4343;
+        transition: all .3s ease-in-out;
+
+        &:hover{
+            background: #E71414;
+        }
+
+        &:active{
+            background: #FF4343;
+            box-shadow: 4px 4px 30px #FF4343;   
+        }
+
+        @media (max-width:1024px){
+            max-width: 315px;
+            font-size: $h5;
+        }
+
+        @media (max-width:425px){
+            padding: 25px 0;
+        }
+    }
+}
